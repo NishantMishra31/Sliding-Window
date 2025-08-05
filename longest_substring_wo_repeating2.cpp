@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// return thr length of longest substring without character repitition
+// optimal approach takes O(n) TC and constant O(256) SC 
+
 int lengthOfLongestSubstring(string s) {
     int n = s.size();
     vector <int> mp(256, -1);
