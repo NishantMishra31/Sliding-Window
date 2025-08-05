@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// return thr length of longest substring without character repitition
+// brute force approach that takes TC of O(n^2) and SC of O(n)
+
 int lengthOfLongestSubstring(string s) {
     int n = s.size();
     int len = 0, maxLen = 0;
