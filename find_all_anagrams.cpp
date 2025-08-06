@@ -14,7 +14,7 @@ vector<int> findAnagrams(string s, string p) {
         sort(sub.begin(), sub.end());
         if (sub == sortedP) {
             result.push_back(i);
-    }
+        }
     }
     return result;
 }
