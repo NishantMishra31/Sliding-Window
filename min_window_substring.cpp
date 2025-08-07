@@ -2,7 +2,7 @@
 using namespace std;
 
 // Given two strings s and t, return the minimum window substring of s
-//such that every character in t (including duplicates) is included in the window.
+// such that every character in t (including duplicates) is included in the window.
 // If there is no such substring, return the empty string "".
 // This is brute force approach that takes O(N^2) TC and constant space
 
