@@ -9,6 +9,9 @@ You can perform this operation at most k times.
 Return the length of the longest substring containing
 the same letter you can get after performing the above operations. */
 
+// this is the optimal approach that uses a sliding window over the string
+// TC is O(N) and space is constant
+
 int characterReplacement(string s, int k) {
     int n = s.size();
     int l = 0, r = 0, maxLen = 0, maxFreq = 0;
