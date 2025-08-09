@@ -36,6 +36,7 @@ int main(){
     string s, t;
     cin >> s >> t;
     // call
-    cout << minWindow(s, t);
+    string ans = minWindow(s, t);
+    cout << ans;
     return 0;
 }
