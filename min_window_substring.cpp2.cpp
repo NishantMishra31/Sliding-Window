@@ -3,7 +3,7 @@ using namespace std;
 
 // Given two strings s and t, return the minimum window substring of s
 // such that every character in t (including duplicates) is included in the window.
-// If there is no such substring, return the empty string "".
+// If there is no such substring, return the empty string.
 // This is the optimal approach that takes O(N) TC and a constant space
 // using a sliding window and frequency counting array we can boil down to one pass
 
