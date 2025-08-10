@@ -7,6 +7,8 @@ or false otherwise.
 
 In other words, return true if one of s1's permutations is the substring of s2. */
 
+// this is the brute force approach that takes O(m*n) TC and constant space
+
 bool isFreqSame(vector<int> &freqWindow, vector<int> &freqCount) {
     for (int i = 0; i < 26; i++) {
         if (freqWindow[i] != freqCount[i]) return false;
