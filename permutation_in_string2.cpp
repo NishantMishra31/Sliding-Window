@@ -7,7 +7,7 @@ or false otherwise.
 
 In other words, return true if one of s1's permutations is the substring of s2. */
 
-
+// this is the optimal sliding window approach that takes O(m) TC and again, constant space
 
 bool isFreqSame(vector<int> &a, vector<int> &b) {
     for (int i = 0; i < 26; i++) {
