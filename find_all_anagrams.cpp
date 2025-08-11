@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Given two strings s and p, return an array of all the start indices of p's anagrams in s.
+// You may return the answer in any order.
+
 // brute force approach that might TLE for large strings
 
 vector<int> findAnagrams(string s, string p) {
