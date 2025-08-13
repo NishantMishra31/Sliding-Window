@@ -11,7 +11,7 @@ In other words, return true if one of s1's permutations is the substring of s2. 
 
 bool isFreqSame(vector<int> &a, vector<int> &b) {
 
-    // helper function
+    // helper function (can be done in main as well)
     for (int i = 0; i < 26; i++) {
         if (a[i] != b[i]) return false;
     }
